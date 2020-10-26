@@ -8,23 +8,23 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+.navbar {/*Changed class name from header to navbar*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+.navbar h1 {/*Changed class name from header to navbar*/
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.navbar h1 .seo {/*Changed class name from header to navbar*/
     color: #d9dcd6;
 }
 
-.header div {
+.navbar div {/*Changed class name from header to navbar*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.navbar div ul {/*Changed class name from header to navbar*/
     list-style-type: none;
 }
 
-.header div ul li {
+.navbar div ul li {/*Changed class name from header to navbar*/
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,7 +50,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.hero-image {/*Changed class name hero to hero-image*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -195,6 +195,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {/*Changed class tag from h2 to h4 to reflect changes on html*/
     font-size: 20px;
 }
